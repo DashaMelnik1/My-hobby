@@ -1,0 +1,10 @@
+.painting {
+    background-color: $bg-color;
+    padding: 70px 0;
+    &__title {
+        @include section-title ($text-color);
+    }
+    &__text {
+        color: $text-color;
+    }
+}

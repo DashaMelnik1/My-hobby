@@ -1,0 +1,6 @@
+@mixin section-title($title-color) {
+    color: $title-color;
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0 auto 50px;
+}

@@ -1,0 +1,9 @@
+.relax {
+    padding: 70px 0;
+    &__title {
+        @include section-title ($bg-color)
+    }
+    &__text {
+        color: $bg-color;
+    }
+}

@@ -1,0 +1,26 @@
+.header {
+    background-color: $bg-color;
+    padding: 25px 0 25px;
+    &__name {
+        color: $text-color;
+        font-size: 2rem;
+        &::before {
+            width: 40px;
+            height: 2px;
+            background: $text-color;
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 25px;
+        }
+        &::after {
+            width: 40px;
+            height: 2px;
+            background-color: $text-color;
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 25px;
+        }
+    }
+}

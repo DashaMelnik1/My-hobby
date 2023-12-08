@@ -1,0 +1,11 @@
+.background {
+    padding: 360px 0;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $text-color;
+    &__title {
+        font-size: 7rem;
+        font-family: 'Bad Script';
+    }
+}

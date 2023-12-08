@@ -1,0 +1,16 @@
+.social {
+    display: flex;
+    justify-content: center;
+    &__link {
+        font-size: 4rem;
+        color: $text-color;
+        text-align: center;
+        transition: .5s;
+        &:not(:last-of-type) {
+            margin-right: 50px;
+        }
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
+}

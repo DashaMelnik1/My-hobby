@@ -1,0 +1,24 @@
+.text {
+    font-size: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 70px;
+}
+
+@media screen and (max-width:1255px) {
+    .text {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width:970px) {
+    .text {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .text {
+        font-size: 1.5rem;
+        max-width: 400px;
+    }
+}
